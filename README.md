@@ -17,6 +17,11 @@ sudo apt install xfce4-session
 ```
 
 ```bash
+sudo apt-get -y install xrdp
+sudo systemctl enable xrdp
+```
+
+```bash
 echo xfce4-session >~/.xsession
 sudo service xrdp restart
 ```
@@ -26,19 +31,9 @@ sudo service xrdp restart
 
 ## Remote Desktop Connection (RDP)
 
-<https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop>
-
 ### XRDP
 
-```bash
-sudo apt-get -y install xrdp
-sudo systemctl enable xrdp
-```
-
-```bash
-echo xfce4-session >~/.xsession
-sudo service xrdp restart
-```
+<https://docs.microsoft.com/en-us/azure/virtual-machines/linux/use-remote-desktop>
 
 ### Mobaxterm
 
