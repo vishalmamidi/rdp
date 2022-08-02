@@ -1,5 +1,15 @@
 # -
 
+## fix xrdp4
+```
+nano /etc/xrdp/xrdp.ini
+max_bpp = 128
+xserverbpp = 128
+crypt_level = low
+use_compression = yes
+
+```
+
 ## Display Manager
 
 &nbsp;
